@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>English Proficiency Test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mt-4">English Proficiency Test</h2>
+        <form id="testForm">
+            <!-- Questions Section -->
+            <div id="questionSection" class="mt-4">
+                <!-- Questions will be dynamically inserted here -->
+            </div>
+
+            <!-- Pagination Buttons -->
+            <div class="d-flex justify-content-between mt-4">
+                <button type="button" class="btn btn-primary" id="prevButton" disabled>Previous</button>
+                <button type="button" class="btn btn-primary" id="nextButton">Next</button>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-success mt-4" id="submitButton" disabled>Submit</button>
+        </form>
+    </div>
+
+    <!-- JavaScript (jQuery, Bootstrap, and custom script) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
